@@ -69,6 +69,9 @@
         .center {
             text-align: center;
         }
+        .price::before {
+            content: '￥';
+        }
 
     </style>
 </head>
@@ -103,15 +106,15 @@
                 </tr>
                 <tr>
                     <td>皮卡丘</td>
-                    <td>￥25</td>
+                    <td class="price">25</td>
                 </tr>
                 <tr>
                     <td>伊布</td>
-                    <td>￥50</td>
+                    <td class="price">50</td>
                 </tr>
                 <tr>
                     <td>可达鸭</td>
-                    <td>￥100</td>
+                    <td class="price">100</td>
                 </tr>
             </table>
             </div>
