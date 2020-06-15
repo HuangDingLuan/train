@@ -2,7 +2,7 @@ body{
     background-color: teal;
 }
 .index{
-    width: 60%;
+    width: 900px;
     margin: 0 auto;
 }
 .header{
@@ -15,7 +15,7 @@ body{
     align-items:center ;
 }
 .header #left{
-    color: white;
+    color:rgb(231,231, 218);
     font-size: 20px;
 }
 .header #right{
@@ -27,7 +27,7 @@ body{
     height: 30px;
     width: 30px;
     top: 10px;
-    left: 110px;
+    left: 120px;
 
 }
 .center{
