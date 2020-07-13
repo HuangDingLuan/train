@@ -42,11 +42,13 @@
             function appendtext(){
                 var randomColor = parseInt(Math.random() * colors.length);
                 var randomY = parseInt(Math.random() * 580);
+                var randomSize = Math.floor(Math.random()*100)+2;
                 $("<span></span>") //创建span
                 .text($("#txt").val()) //设置内容
                 .css("color", colors[randomColor]) //设置字体颜色
                 .css("left", "1500px") //设置left值
                 .css("top", randomY) //设置top值
+                .css("font-size", randomSize+'px')
                 .animate({
                     left: -500
                     }, 10000, "linear", function() {
