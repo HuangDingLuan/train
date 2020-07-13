@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     function get(page) {
         $('#loading').css('display', 'block');
-        axios.get('http://mock-api.com/Zn5Moxnj.mock/page=' + page)
+        axios.get('https://mock-api.com/Zn5Moxnj.mock/page=' + page)
             .then(function (res) {
                 console.log("res", res.data);
                 var i;

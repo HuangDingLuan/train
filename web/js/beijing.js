@@ -1,6 +1,6 @@
   
 $(document).ready(function () {
-    axios.get('http://mock-api.com/Zn5Moxnj.mock/beijing')
+    axios.get('https://mock-api.com/Zn5Moxnj.mock/beijing')
         .then(function (res) {
             console.log("res", res.data);
             var i;
