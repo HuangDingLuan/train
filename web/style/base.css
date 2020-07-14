@@ -53,3 +53,20 @@ body{
 .detail{
     width: 100%;
 }
+.space{ 
+    display: inline-block;
+    padding: 70px;
+  }
+  .space img{ 
+    height: 400px;
+  }
+  
+  .page{
+    margin:0 auto;
+    text-align: center;
+  }
+  .card{
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
