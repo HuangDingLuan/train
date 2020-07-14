@@ -8,7 +8,7 @@ $(document).ready(function () {
                 console.log("res", res.data);
                 var i;
                 var item;
-                $('#introduce tr:not(:first-child)').remove();
+                $('#introduce div:not()').remove();
                 for (i = 0; i < res.data.length; ++i) {
                     item = res.data[i];
                     console.log('item', item);
@@ -23,6 +23,8 @@ $(document).ready(function () {
     }
     get(1);
     $('#pagination button').click(function (){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         var page = Number($(this).text());
         get(page);
         $('#pagination button').removeClass('active');
